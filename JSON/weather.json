@@ -1,0 +1,44 @@
+{
+   "coord":{
+      "lon":8.5908,
+      "lat":47.1782
+   },
+   "weather":[
+      {
+         "id":804,
+         "main":"Clouds",
+         "description":"overcast clouds",
+         "icon":"04d"
+      }
+   ],
+   "base":"stations",
+   "main":{
+      "temp":-2.67,
+      "feels_like":-4.95,
+      "temp_min":-4.37,
+      "temp_max":-1.2,
+      "pressure":1010,
+      "humidity":93
+   },
+   "visibility":186,
+   "wind":{
+      "speed":1.59,
+      "deg":340,
+      "gust":1.96
+   },
+   "clouds":{
+      "all":100
+   },
+   "dt":1671200936,
+   "sys":{
+      "type":2,
+      "id":205433,
+      "country":"CH",
+      "sunrise":1671174366,
+      "sunset":1671204982
+   },
+   "timezone":3600,
+   "id":2659686,
+   "name":"Menzingen",
+   "cod":200
+}
