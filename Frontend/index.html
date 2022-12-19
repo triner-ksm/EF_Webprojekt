@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Produkte</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+<div class="one"><h1>Produkte</h1></div>
+
+<table id="products">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Bezeichnung</th>
+        <th>Einkaufspreis</th>
+        <th>Verkaufspreis</th>
+        <th>Anzahl</th>
+        <th>Bearbeiten</th>
+        <th>Entfernen</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+
+
+<br><br>
+<button id="myBtn">Produkt hinzufügen</button>
+
+
+
+<!-- addProduct -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <form name="myForm" action="#" onsubmit="return createProduct()">
+            <input type="hidden" name="id" id="id">
+            <label for="description">Bezeichnung:</label><br>
+            <input type="text" id="description" name="description"><br><br>
+            <label for="e_price">Einkaufspreis:</label><br>
+            <input type="text" id="e_price" name="e_price"><br><br>
+            <label for="v_price">Verkaufspreis:</label><br>
+            <input type="text" id="v_price" name="v_price"><br><br>
+            <label for="amount">Anzahl:</label><br>
+            <input type="text" id="amount" name="amount"><br><br>
+            <input type="submit" id="mySubmit" value="Erstellen">
+        </form>
+    </div>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>
